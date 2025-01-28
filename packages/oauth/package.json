@@ -1,0 +1,27 @@
+{
+	"name": "@local/oauth",
+	"version": "0.1.0",
+	"description": "Provides OAuth mixins from multiple providers (currently just Google)",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "plundell",
+	"license": "MIT",
+	"peerDependencies": {
+		"next": ">=15.0.0",
+		"node-fetch": "^3.3.2",
+		"zod": "^3.24.1"
+	},
+	"dependencies": {
+		"@local/util-crypto": "*",
+		"@local/util-vars": "*",
+		"@local/util-errors": "*",
+		"@local/util-errors-next": "*"
+	},
+	"exports": {
+		"./*": "./src/*.ts"
+	},
+	"imports": {
+		"#*": "./src/*.ts"
+	}
+}

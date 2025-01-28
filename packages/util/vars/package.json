@@ -1,0 +1,14 @@
+{
+	"name": "@local/util-vars",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Utils which help with formating, checking and typing variables.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "plundell",
+	"license": "MIT",
+	"exports": {
+		"./*": "./src/*.ts"
+	}
+}

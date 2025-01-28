@@ -1,0 +1,25 @@
+{
+	"name": "@local/util-crypto",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Wrapper Mixins which do not require Next as a peer dependency",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint . --max-warnings 0",
+		"check-types": "tsc --noEmit"
+	},
+	"author": "plundell",
+	"license": "MIT",
+	"exports": {
+		"./encryption": "./src/encryption.ts",
+		"./keys": "./src/keys.ts"
+	},
+	"dependencies": {
+		"@local/util-errors": "*",
+		"@local/util-vars": "*",
+		"jsonwebtoken": "^9.0.2"
+	},
+	"devDependencies": {
+		"@types/jsonwebtoken": "^9.0.8"
+	}
+}

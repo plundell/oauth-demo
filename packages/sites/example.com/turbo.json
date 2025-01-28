@@ -1,0 +1,13 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"tasks": {
+		"dev": {
+			"inputs": [
+				"src/**/*",
+				"!node_modules/**",
+				"!.git/**",
+				"!.next/**"
+			]
+		}
+	}
+}

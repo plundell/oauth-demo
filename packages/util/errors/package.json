@@ -1,0 +1,14 @@
+{
+	"name": "@local/util-errors",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Generic TypeScript errors. No dependencies.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "plundell",
+	"license": "MIT",
+	"exports": {
+		"./*": "./src/*.ts"
+	}
+}

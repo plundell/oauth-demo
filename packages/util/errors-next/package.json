@@ -1,0 +1,17 @@
+{
+	"name": "@local/util-errors-next",
+	"version": "0.1.0",
+	"description": "TypeScript errors which require Next as a peer dependency",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "plundell",
+	"license": "MIT",
+	"peerDependencies": {
+		"next": ">=15.0.0"
+	},
+	"exports": {
+		"./*": "./src/*.ts"
+	}
+}

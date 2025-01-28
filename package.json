@@ -1,0 +1,20 @@
+{
+	"name": "my-oauth-demo",
+	"version": "0.1.0",
+	"description": "Workspace for simple demo of OAuth in a Next.js app. ",
+	"author": "plundell",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"packages/sites/*",
+		"packages/oauth",
+		"packages/util/*"
+	],
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9.19.0",
+		"typescript": "^5"
+	}
+}
