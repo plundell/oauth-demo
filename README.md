@@ -4,7 +4,6 @@ This is a demo of how one might add "Login with Google" to a Next.js app without
 
 ## Design Criteria
 
-The full list of design criteria are as follows:
 - TypeScript
 - Next.js 15 with App Router
 - OAuth authentication using Google
@@ -22,7 +21,7 @@ This is the overall folder structure:
 | `./packages` | Contains all the packages used in the project. |
 | `./packages/oauth` | OAuth package for handling authentication. [See below](#oauth) |
 | `./packages/util` | Utility packages for various functionalities. |
-| `./packages/sites` | Contains site-specific configurations and code. |
+| `./packages/sites` | Contains 2 deployable Next.js apps which make use of the other packages. |
 
 ### OAuth
 
@@ -56,7 +55,7 @@ To use this demo, follow these steps:
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
 2. Create a new project or select an existing one
 3. Enable the OAuth2 API if not already enabled
-4. Do the following twice for both _example.com_ and _foo.com_:
+4. Do the following for both _example.com_ and _foo.com_:
  - Go to "Credentials" and click "Create Credentials" > "OAuth 2.0 Client ID"
  - Select "Web application" as the application type
  - Add authorized JavaScript origins, eg. `http://example.com:3000`
